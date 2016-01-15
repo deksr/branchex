@@ -1,5 +1,8 @@
-commands:
-$ git branch: shows you the brances that are present. (*- star against the name suggest that branch you are present). (Not sure what road you have take? use this command).
-$ git branch newbranchname: this only creates a new branch and not to be confused with 
- git checkout newbranchname *emphasis*
-$ git checkout newbranchname: use this to enter/switch into the branch stream that you have created or one that is present.
+
+ commands: 
+
+$ git branch: shows you the brances that are present. (*- star against the name suggest the current branch you are working on). (Whenever you need to check what branch you are currently working on. use this command).
+
+$ git branch newbranchname: this only creates a new branch and not to be confused with *git checkout newbranchname.* 
+
+$ git checkout newbranchname: use this to enter/switch into the new branch stream that you have created or one that is already present.
