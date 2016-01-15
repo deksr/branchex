@@ -21,5 +21,7 @@ Once done, you can continue working on the master branch. Do $ git push origin m
 note: if you want to delete the mango branch after this, you can do so with the command:
 $ git branch -d mango
 
+*Here I am to create a merge conflict for the master branch. *
+
 
 
