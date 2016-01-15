@@ -11,7 +11,7 @@ $ git checkout mango: use this to enter/switch into the new branch stream that y
 when ever you want to push your work, push it to the new branch i.e  *$ git push origin mango*. 
 
 To merge two branches:
-Rememebr to always git add, commit on the branch you are in. 
+Remember to always git add, commit on the branch you are in. 
  1) $ git checkout master: here we switch to the branch you want to merge with. 
 
 2) $ git merge mango: After exiting the mango branch and into the master branch, we merge the files present in mango branch to the master.
