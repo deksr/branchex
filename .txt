@@ -21,5 +21,9 @@ Once done, you can continue working on the master branch. Do $ git push origin m
 note: if you want to delete the mango branch after this, you can do so with the command:
 $ git branch -d mango
 
+Merge conflicts:
+Merge conflicts appear when two people have worked on the same file but the content doesnt match when we are trying to merge. Say A file on the master branch and that same file on the mango branch. When you try to merge your branches, it will show a merge conflict saying there changes on the same file and it can not be merged unless resolved. to solve this:
+
+
 
 
