@@ -1,31 +1,35 @@
 
- commands: 
+ commands:  
+ 
+ Here we are working with only two branches. Master and mango. 
+ 
+$ git branch: shows you the brances that are present. (*- star against the name suggest the current branch you are working on). (Whenever you need to check what branch you are currently working on. use this command). 
+ 
+$ git branch mango: this only creates a new branch and not to be confused with *git checkout mango.*  
+ 
+$ git checkout mango: use this to enter/switch into the new branch stream that you have created or one that is already present.  
+when ever you want to push your work, push it to the new branch i.e  *$ git push origin mango*.  
+ 
 
- here we are working with only two branches. Master and mango.
+ *************************
+To merge two branches: 
+Remember to always git add, commit on the branch you are in before you checkout.  
+ 1) $ git checkout master: here we switch to the branch you want to merge with.  
+ 
+2) $ git merge mango: After exiting the mango branch and into the master branch, we merge the files present in mango branch to the master. 
+ 
+Once done, you can continue working on the master branch. Do $ git push origin master and continue working on master branch.  
+ 
+note: if you want to delete the mango branch after this, you can do so with the command: 
+$ git branch -d mango 
+ 
 
-$ git branch: shows you the brances that are present. (*- star against the name suggest the current branch you are working on). (Whenever you need to check what branch you are currently working on. use this command).
+*************************
 
-$ git branch mango: this only creates a new branch and not to be confused with *git checkout newbranchname.* 
-
-$ git checkout mango: use this to enter/switch into the new branch stream that you have created or one that is already present. 
-when ever you want to push your work, push it to the new branch i.e  *$ git push origin mango*. 
-
-To merge two branches:
-Remember to always git add, commit on the branch you are in before you checkout. 
- 1) $ git checkout master: here we switch to the branch you want to merge with. 
-
-2) $ git merge mango: After exiting the mango branch and into the master branch, we merge the files present in mango branch to the master.
-
-Once done, you can continue working on the master branch. Do $ git push origin master and continue working on master branch. 
-
-note: if you want to delete the mango branch after this, you can do so with the command:
-$ git branch -d mango
-
-Merge conflicts:
-Merge conflicts appear on the same file but the content doesn't match when we are trying to merge. (Say A file on the master branch and that same file on the mango branch are being changed by two different users. When you try to merge your branches, it will show a merge conflict saying there are changes on the same file and it can not be merged unless resolved). to solve this use:
-
-$ git mergetool --tool=emerge  :this will open up the terminal and show three files. Top two are the files that have been changed and the bottom file is the editor. On the bottom file press N. This will highlight the change in ^^^^^. To keep change that is present on the left file: press B or to to keep the change on the right file press A. Press N to move to the next change. Once over press Q follwed by y or no? 
-
+Merge conflicts: 
+Merge conflicts appear on the same file when content doesn't match on each file while trying to merge two branches. (A file hello.html on the master branch and file hello.html on the mango branch are being changed by two different users. When thry try to merge their branches, it will show a merge conflict saying there are changes on the same file and it can not be merged unless resolved). to solve this use: 
+ 
+$ git mergetool --tool=emerge  :this will open up the terminal and show three files. Top two are the files that have been changed and the bottom file is the editor. On the bottom file press N. This will highlight the change in ^^^^^. To keep change that is present on the left file: press B or to to keep the change on the right file press A. Press N to move to the next change. Once over press Q followed by y or no?  
 
 
 
