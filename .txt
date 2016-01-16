@@ -24,7 +24,7 @@ $ git branch -d mango
 Merge conflicts:
 Merge conflicts appear on the same file but the content doesn't match when we are trying to merge. (Say A file on the master branch and that same file on the mango branch are being changed by two different users. When you try to merge your branches, it will show a merge conflict saying there are changes on the same file and it can not be merged unless resolved). to solve this use:
 
-$ git mergetool --tool=emerge  :this will open up the terminal and show three files. Top two are the files that have been changed and the bottom file is the editor. On the bottom file press N. This will highlight the change in ^^^^^. To keep change that is present on the left file: press B or to to keep the change on the right file press A. Press N to move to the next change. Once over press Q. after that says yes or no depending on your mood. 
+$ git mergetool --tool=emerge  :this will open up the terminal and show three files. Top two are the files that have been changed and the bottom file is the editor. On the bottom file press N. This will highlight the change in ^^^^^. To keep change that is present on the left file: press B or to to keep the change on the right file press A. Press N to move to the next change. Once over press Q follwed by y or no? 
 
 
 
