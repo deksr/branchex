@@ -33,6 +33,32 @@ $ git mergetool --tool=emerge  :this will open up the terminal and show three fi
 
 
 
+**********************************
+
+How to fork a repo?
+1) fork a repo on github, here you will be asked for permission whether you want it be forked in your repo or some other group repos.Choose where you want to be forked.
+
+2) once forked, the forked repo will appear in your github repositries. Now clone the repo: 
+`git clone https://github.com/deksr/Spoon-Knife.git`
+
+3) Then cd into teh cloned repositry.
+4) inside this repository, check by typinf this command '$ git remote -v' and it show 2 origins one for fetch and another for push like this:
+origin	https://github.com/deksr/Spoon-Knife.git (fetch)
+origin	https://github.com/deksr/Spoon-Knife.git (push)
+
+5) Then add the remote origin: 
+$ git remote add upstream https://github.com/octocat/Spoon-Knife.git
+
+6) next, add the upstream using the command `$ git fetch upstream`
+
+7) now when you check 'got remote -v' it will show 2 origins and 2 upstreams. 
+
+8) Make changes to the file and the git add .,  git commit, got push origin master.
+
+
+
+
+
 
 
 
