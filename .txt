@@ -55,6 +55,9 @@ $ git remote add upstream https://github.com/octocat/Spoon-Knife.git
 
 8) Make changes to the file and the git add .,  git commit, git push origin master.
 
+what is gitignore?
+*****************
+
 
 
 

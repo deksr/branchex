@@ -1,0 +1,3 @@
+If you create a file in your repository named .gitignore, Git uses it to determine which files and directories to ignore, before you make a commit.
+
+This is a local git ignore.
