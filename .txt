@@ -58,6 +58,19 @@ $ git remote add upstream https://github.com/octocat/Spoon-Knife.git
 what is gitignore?
 *****************
 
+Gitignore will ignores files that shouldn't be commited in the github repo.
+
+To gitignore a file: 
+1) First create a `touch .gitignore`. 
+
+2) note that this .gitignore file needs to be created at the very begining of the project. It will not ignore files that are already `git add`.
+
+3) then include files that needs to be ignored. For example if the file name is index.html then add *index.html. 
+
+4) Then git add git commit. 
+
+
+
 
 
 
