@@ -1,0 +1,22 @@
+to install new version of node:
+
+use nvm(node version manager) Hust like how they has in ruby called rvm
+
+
+`nvm install 4.2` (4.2 is the version number lets say the node version is 4.2.6)
+
+
+
+To lists out all different version of node installed in the system. 
+`nvm ls` 
+
+
+
+You can swith between the node version any time you want by this command:
+`nvm use 0.12`
+
+
+
+if you want to uninstall just do:
+`nvm uninstall 0.10`
+
