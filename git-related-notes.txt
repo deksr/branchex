@@ -9,6 +9,12 @@ ls -a
 To remove git from a repo do:
 rm -rf .git
 
+If you want to rename a branch 
+git branch -m <oldname> <newname>
+if you are on the current branch then 
+git branch -m <newname>
+
+
 *********
 
  
