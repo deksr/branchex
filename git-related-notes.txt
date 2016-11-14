@@ -1,7 +1,15 @@
 
- commands:  
+ commands:
+
+please note that Git will not create a master branch until you commit something. 
+
+if you want to see all th hidden files inside of a file do
+ls -a
+
+*********
+
  
- Here we are working with only two branches. Master and mango. 
+Here we are working with only two branches. Master and mango. 
  
 $ git branch: shows you the brances that are present. (*- star against the name suggest the current branch you are working on). (Whenever you need to check what branch you are currently working on. use this command). 
  
