@@ -1,10 +1,13 @@
 
- commands:
+commands:
 
 please note that Git will not create a master branch until you commit something. 
 
 if you want to see all th hidden files inside of a file do
 ls -a
+
+To remove git from a repo do:
+rm -rf .git
 
 *********
 
