@@ -9,6 +9,10 @@ $ git branch mango: this only creates a new branch and not to be confused with *
  
 $ git checkout mango: use this to enter/switch into the new branch stream that you have created or one that is already present.  
 when ever you want to push your work, push it to the new branch i.e  *$ git push origin mango*.  
+
+to delete a branch: 
+`git branch -d branch_name`.
+
  
 
  *************************
