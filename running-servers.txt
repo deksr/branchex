@@ -1,0 +1,15 @@
+1) simple server: This doesn’t need much configuration. 
+https://www.npmjs.com/package/http-server
+
+2) flask: this is a python micro framework
+http://flask.pocoo.org/
+
+3) nodejs for javascript
+nodejs is a simple server, express is built on top of nodes js. express adds the concept of middleware, a simplified way of managing different routes, automated integration with several templating engines and a bunch more.
+
+4) sinatra is for ruby
+
+5) Mamp for php
+
+
+
