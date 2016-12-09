@@ -93,6 +93,49 @@ To gitignore a file:
 
 
 
+******************ENV FILE ***************************
+ how to save environment variables within your apps/folders for development use?
+
+this method is for server side usage::
+1) `npm install dotenv --save` 
+
+2) create .env file and store the variable like this 
+secretkey=75jhsdahs
+
+3)then add in app.js:
+require('dotenv').config();
+in app.js (below var bodyParser = require('body-parser');
+)
+
+4) wherever it is needed use process.env.secretkey
+refer to campfire/ api/ exposing-api notes
+
+OR
+
+You can even set env variables in your system and then you app can access it.
+To check all your previous env files use this command in terminal:
+`printenv`or `env`: this displays all the env file stored in our system
+
+where to set the env variable in my system?
+in terminal type `open ~/.bash_profile`
+This opens bash file. 
+https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps
+
+
+
+*******************************************************
+where is user/bin? and how to access it?
+click on dashboard. The finder bar appears. choose GO > go to folder. 
+type - `/usr/bin` and press enter
+
+
+
+
+
+
+
+
+
 
 
 
