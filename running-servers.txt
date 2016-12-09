@@ -11,5 +11,11 @@ nodejs is a simple server, express is built on top of nodes js. express adds the
 
 5) Mamp for php
 
+6) if you want to use web pack for front end then refer to this:
+https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
+ and then add
+`“start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js”` to package.son.
+start the server with npm start
+
 
 
