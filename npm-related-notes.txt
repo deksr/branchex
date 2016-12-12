@@ -20,3 +20,6 @@ You can swith between the node version any time you want by this command:
 if you want to uninstall just do:
 `nvm uninstall 0.10`
 
+
+`nvm current` says what version you are using
+
