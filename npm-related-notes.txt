@@ -1,5 +1,8 @@
 to install new version of node:
 
+to installs node package manager:
+`npm install npm@next -g` 
+
 use nvm(node version manager) Hust like how they has in ruby called rvm
 
 
