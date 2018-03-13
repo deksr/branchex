@@ -3,6 +3,24 @@ to install new version of node:
 to installs node package manager:
 `npm install npm@next -g` 
 
+
+
+
+Tells which packages are outdated packages:
+`npm outdated`
+
+
+
+Removes packages not depended on by your project:
+`npm prune`
+
+
+
+ Lists all installed packages
+`npm list`
+
+
+
 use nvm(node version manager) Hust like how they has in ruby called rvm
 
 
