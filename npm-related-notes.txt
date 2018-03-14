@@ -31,7 +31,6 @@ use nvm(node version manager) in ruby it's rvm:
 
 
 
-
 2)Tells which packages are outdated packages(within the app's project directory folder):
 `npm outdated`
 
@@ -42,7 +41,7 @@ use nvm(node version manager) in ruby it's rvm:
 
 
 
- 4)Lists all installed packages(within the app's project folder)
+4)Lists all installed packages(within the app's project folder)
 `npm list`(npm list for local packages or npm list -g for globally installed packages)
 
 
