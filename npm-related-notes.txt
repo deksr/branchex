@@ -30,6 +30,7 @@ use nvm(node version manager) in ruby it's rvm
 
 To lists out all different version of node installed in the system. 
 `nvm ls` 
+`node -v ` (this gives the version of node we are using)
 
 
 
