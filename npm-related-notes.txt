@@ -1,25 +1,49 @@
-to install new version of node:
+Node version manager (NVM):
+Node package manager (NPM):
+https://stackoverflow.com/questions/32660993/difference-between-npm-and-nvm
 
-use nvm(node version manager) Hust like how they has in ruby called rvm
+use nvm(node version manager) in ruby it's rvm:
+
+1) To lists out all different version of node installed in the system. 
+`nvm ls` 
+`node -v ` (this gives the version of node we are using)
+`nvm current` says what version you are using(same as node -v)
 
 
+2) To install new version of node:
 `nvm install 4.2` (4.2 is the version number lets say the node version is 4.2.6)
 
 
-
-To lists out all different version of node installed in the system. 
-`nvm ls` 
-
-
-
-You can swith between the node version any time you want by this command:
+3) You can swith between the node version any time you want by this command:
 `nvm use 0.12`
 
 
-
-if you want to uninstall just do:
+4) if you want to uninstall just do:
 `nvm uninstall 0.10`
 
 
-`nvm current` says what version you are using
 
+
+
+
+1)To installs node package manager:
+`npm install npm@next -g` 
+
+
+
+2)Tells which packages are outdated packages(within the app's project directory folder):
+`npm outdated`
+
+
+
+3)Removes packages not depended on by your project:
+`npm prune`
+
+
+
+4)Lists all installed packages(within the app's project folder)
+`npm list`(npm list for local packages or npm list -g for globally installed packages)
+
+
+run `npm install` to install the packages when repo is cloned from github
+run `npm init` to initiate the packages.json files

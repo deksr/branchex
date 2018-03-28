@@ -21,6 +21,9 @@ git branch -m <newname>
 Here we are working with only two branches. Master and mango. 
  
 $ git branch: shows you the brances that are present. (*- star against the name suggest the current branch you are working on). (Whenever you need to check what branch you are currently working on. use this command). 
+
+note v important:Remember to always git add, commit on the branch you are in before you checkout.  
+
  
 $ git branch mango: this only creates a new branch and not to be confused with *git checkout mango.*  
  
