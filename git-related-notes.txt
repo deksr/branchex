@@ -1,6 +1,10 @@
 
 commands:
 
+To check if a repo is git repo:
+git rev-parse --is-inside-work-tree
+>> returns either true or false
+
 please note that Git will not create a master branch until you commit something. 
 
 if you want to see all th hidden files inside of a file do
